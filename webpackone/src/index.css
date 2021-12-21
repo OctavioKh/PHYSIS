@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, /* 'Courier New' */
+    monospace;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: local('Druk XCondensed Super'), url(./fonts/DrukXXCondensed\-Super.ttf ) format('truetype');
+  src: url(./fonts/DrukXXCondensed-Super.eot) format('embedded-opentype'),; /* IE9 Compat Modes */
+  src: url(./fonts/DrukXXCondensed-Super.woff2) format('woff2'), /* Super Modern Browsers */
+       url(./fonts/DrukXXCondensed-Super.woff) format('woff'), /* Pretty Modern Browsers */
+       url(./fonts/DrukXXCondensed-Super.ttf)  format('truetype'), /* Safari, Android, iOS */
+       url(./fonts/DrukXXCondensed-Super.svg#svgFontName) format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'MyFont2';
+  src: local('DrukTextWide Bold'), url(./fonts/DrukTextWide\-Bold.ttf ) format('truetype');
+  src: url(./fonts/DrukTextWide-Bold.eot) format('embedded-opentype'),; /* IE9 Compat Modes */
+  src: url(./fonts/DrukTextWide-Bold.woff2) format('woff2'), /* Super Modern Browsers */
+       url(./fonts/DrukTextWide-Bold.woff) format('woff'), /* Pretty Modern Browsers */
+       url(./fonts/DrukTextWide-Bold.ttf)  format('truetype'), /* Safari, Android, iOS */
+       url(./fonts/DrukTextWide-Bold.svg#svgFontName) format('svg'); /* Legacy iOS */
+}
+
